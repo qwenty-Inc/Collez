@@ -1,0 +1,84 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #898B8C;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.main {
+    margin-top: 136px;
+    background-color: #FFFFFF;
+}
+
+.main--alt {
+    margin-top: 113px;
+    background-color: #FFFFFF;
+}
+
+.title {
+    position: relative;
+    color: rgba(28, 28, 28, 0.77);
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.2;
+    width: fit-content;
+    margin: 0 auto 24px;
+}
+
+.title::after {
+    content: '';
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='108' height='55' viewBox='0 0 108 55' fill='none'%3E%3Cline x1='107.5' y1='-2.18557e-08' x2='107.5' y2='54' stroke='%23EFCFCE'/%3E%3Cline x1='108' y1='54.5' y2='54.5' stroke='%23EFCFCE'/%3E%3Cline x1='103.5' y1='9' x2='103.5' y2='50' stroke='%23EFCFCE'/%3E%3Cline x1='104' y1='50.5' x2='5' y2='50.5' stroke='%23EFCFCE'/%3E%3C/svg%3E");
+    width: 108px;
+    height: 55px;
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    right: -8px;
+}
+
+
+@media (min-width: 1300px) {
+    .main {
+        margin-top: 180px;
+    }
+
+    .main--alt {
+        margin-top: 136px;
+    }
+
+    .title {
+        font-size: 36px;
+        margin-bottom: 48px;
+    }
+}

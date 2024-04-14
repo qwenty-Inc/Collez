@@ -1,0 +1,195 @@
+.main-categories {
+    background: #FFFFFF;
+    padding: 40px 16px;
+}
+
+.main-categories__container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.main-categories__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.main-categories__item {
+    background: rgba(243, 247, 251, 1);
+    padding: 24px;
+    width: calc(50% - 8px);
+    text-align: center;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.main-categories__link {
+    color: rgba(91, 79, 78, 1);
+    text-decoration: none;
+}
+
+.main-categories__link h3 {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main-categories__link img {
+    display: block;
+    width: 100%;
+    max-width: 264px;
+    margin: 0 auto 37px;
+}
+
+@media (min-width: 1300px) {
+    .main-categories {
+        padding: 48px 10px;
+    }
+
+    .main-categories__link h3 {
+        font-size: 28px;
+    }
+
+    .main-categories__list {
+        gap: 38px;
+    }
+
+    .main-categories__item {
+        width: calc(33.333% - 26px);
+        padding: 34px 52px 28px;
+    }
+}
+
+/*.main-categories {*/
+/*    padding-left: 16px;*/
+/*    padding-right: 16px;*/
+/*    margin-top: 44px;*/
+/*    margin-bottom: 44px;*/
+/*}*/
+
+/*.main-categories__list {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    list-style: none;*/
+/*}*/
+
+/*.main-categories__item {*/
+/*    border-radius: 4px;*/
+/*    margin-bottom: 16px;*/
+/*    background: #FFFFFF;*/
+/*}*/
+
+/*.main-categories__item:nth-child(2),*/
+/*.main-categories__item:nth-child(3) {*/
+/*    background-color: #898B8C;*/
+/*}*/
+
+
+/*.main-categories__item-link {*/
+/*    color: #898B8C;*/
+/*    text-decoration: none;*/
+/*    display: block;*/
+/*    padding: 44px 160px 44px 44px;*/
+/*    background-size: contain;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: bottom right;*/
+/*}*/
+
+/*.main-categories__item:nth-child(1) .main-categories__item-link {*/
+/*    background-image: url("../assets/img/headphones.png");*/
+/*    background-size: 220px;*/
+/*}*/
+
+/*.main-categories__item:nth-child(2) .main-categories__item-link {*/
+/*    background-image: url("../assets/img/grill2.png");*/
+/*    background-size: 220px 160px;*/
+/*}*/
+
+/*.main-categories__item:nth-child(3) .main-categories__item-link {*/
+/*    background-image: url("../assets/img/fan2.png");*/
+/*    background-size: 220px;*/
+/*}*/
+
+/*.main-categories__item:nth-child(4) .main-categories__item-link {*/
+/*    background-image: url("../assets/img/washer.png");*/
+/*    background-size: 124px 160px;*/
+/*}*/
+
+/*.main-categories__item-title {*/
+/*    font-family: 'Inter', sans-serif;*/
+/*    font-size: 28px;*/
+/*    line-height: 1.2;*/
+/*    font-weight: 600;*/
+/*    margin-bottom: 24px;*/
+/*}*/
+
+/*.main-categories__item-button {*/
+/*    display: block;*/
+/*    width: fit-content;*/
+/*    background: #E73844;*/
+/*    color: #FFFFFF;*/
+/*}*/
+
+/*.main-categories__item:nth-child(2) .main-categories__item-link,*/
+/*.main-categories__item:nth-child(3) .main-categories__item-link {*/
+/*    color: #FFFFFF;*/
+/*}*/
+
+
+/*.main-categories__item-image-container img {*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*}*/
+
+/*@media (min-width: 1300px) {*/
+/*    .main-categories {*/
+/*        padding-left: 10px;*/
+/*        padding-right: 10px;*/
+/*    }*/
+
+/*    .main-categories__list {*/
+/*        width: 1280px;*/
+/*        display: flex;*/
+/*        flex-wrap: wrap;*/
+/*        margin: 0 auto;*/
+/*        gap: 32px 16px;*/
+/*    }*/
+
+/*    .main-categories__item-title {*/
+/*        font-size: 36px;*/
+/*    }*/
+
+/*    .main-categories__item {*/
+/*        margin-bottom: 0;*/
+/*    }*/
+
+/*    .main-categories__item:nth-child(1) {*/
+/*        width: calc(40% - 8px);*/
+/*    }*/
+
+/*    .main-categories__item:nth-child(2) {*/
+/*        width: calc(60% - 8px);*/
+/*    }*/
+
+/*    .main-categories__item:nth-child(3) {*/
+/*        width: calc(60% - 8px);*/
+/*    }*/
+
+/*    .main-categories__item:nth-child(4) {*/
+/*        width: calc(40% - 8px);*/
+/*    }*/
+
+/*    .main-categories__item:nth-child(2) .main-categories__item-link {*/
+/*        background-image: url("../assets/img/grill.png");*/
+/*        background-size: 415px 244px;*/
+/*    }*/
+
+/*    .main-categories__item:nth-child(3) .main-categories__item-link {*/
+/*        background-image: url("../assets/img/fan.png");*/
+/*        background-size: 366px 240px;*/
+/*    }*/
+/*}*/

@@ -1,0 +1,39 @@
+.review {
+    width: 100%;
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid #E0E1E4;
+    overflow: hidden;
+    padding: 24px 32px;
+    height: 100%;
+}
+
+.reviews__image-container {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-right: 24px;
+}
+
+.reviews__image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.review__content p:first-child {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: rgba(137, 139, 140, 1);
+    margin-bottom: 12px;
+}
+
+.review__content p:last-child {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #9AA5B1;
+}

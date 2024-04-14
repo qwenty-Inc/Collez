@@ -1,0 +1,110 @@
+.slider {
+    background-color: #FFFFFF;
+    padding: 0 16px 40px;
+}
+
+.slider__title-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    height: auto;
+}
+
+.slider__title {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.25;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.slider-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-button-disabled {
+    display: none;
+}
+
+.button-next {
+    width: 24px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #E0E1E4;
+    background-color: #FFF;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -12px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16.5 12L9.00001 19.5L7.95001 18.45L14.4 12L7.95001 5.55L9.00001 4.5L16.5 12Z' fill='%2320374F'/%3E%3C/svg%3E");
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.button-prev {
+    width: 24px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #E0E1E4;
+    background-color: #FFF;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    left: -12px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16.5 12L9.00001 19.5L7.95001 18.45L14.4 12L7.95001 5.55L9.00001 4.5L16.5 12Z' fill='%2320374F'/%3E%3C/svg%3E");
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+    .slider__title {
+        font-size: 36px;
+        margin-bottom: 36px;
+    }
+
+    .button-prev {
+        left: -24px;
+        width: 48px;
+        background-size: 24px;
+    }
+
+    .button-next {
+        right: -24px;
+        width: 48px;
+        background-size: 24px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .slider {
+        padding: 0 10px 80px;
+    }
+}
+
+/*.swiper-button-disabled.button-next,*/
+/*.swiper-button-disabled.button-prev {*/
+/*    background-color: #E0E1E4;*/
+/*}*/
+
+/*@media (min-width: 1300px) {*/
+/*    .swiper {*/
+/*        width: 1280px;*/
+/*    }*/
+/*}*/
