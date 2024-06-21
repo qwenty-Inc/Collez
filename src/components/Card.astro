@@ -1,0 +1,21 @@
+---
+const path = import.meta.env.PUBLIC_URL;
+const {title, id, colors} = Astro.props;
+---
+
+<li class="catalog__item">
+    <a href={`${path}products/${id}`}>
+        <img class="catalog__item-img" src=`${path}assets/img/items/${id}.jpg` width="200" height="200" alt={title}>
+        <div class="catalog__item-info-container">
+            <h4>{title}</h4>
+            <div class="catalog__item-features">
+                <span>Also available in</span>
+                <ul>
+                    {colors.map((color, index) => (
+                        index !== 0 ? <li class=`catalog__item-color catalog__item-color--${color}`></li> : ''
+                    ))}
+                </ul>
+            </div>
+        </div>
+    </a>
+</li>

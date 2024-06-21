@@ -1,0 +1,33 @@
+:root {
+    --color-base: rgba(255, 255, 255, 1);
+    --color-base-opacity: rgba(255, 255, 255, 0.6);
+
+    --color-green-1: rgba(179, 255, 228, 1);
+    --color-green-2: rgba(142, 201, 180, 1);
+    --color-green-3: rgba(61, 96, 83, 1);
+    --color-green-4: rgba(0, 31, 9, 1);
+
+    --color-white-1: rgba(255, 255, 255, 1);
+    --color-white-2: rgba(217, 217, 217, 1);
+    --color-white-3: rgba(47, 47, 47, 1);
+    --color-white-4: rgba(23, 23, 23, 1);
+
+    --color-pink-1: rgba(255, 217, 217, 1);
+    --color-pink-2: rgba(251, 147, 147, 1);
+    --color-pink-3: rgba(255, 83, 83, 1);
+    --color-pink-4: rgba(47, 0, 0, 1);
+
+    --color-blue-1: rgba(173, 231, 255, 1);
+    --color-blue-2: rgba(110, 180, 210, 1);
+    --color-blue-3: rgba(0, 129, 185, 1);
+    --color-blue-4: rgba(0, 41, 59, 1);
+
+    --color-yellow-1: rgba(255, 215, 186, 1);
+    --color-yellow-2: rgba(232, 179, 141, 1);
+    --color-yellow-3: rgba(255, 147, 69, 1);
+    --color-yellow-4: rgba(33, 14, 0, 1);
+
+    --color-additinal-1: rgba(164, 222, 201, 1);
+    --color-additinal-2: rgba(120, 173, 136, 1);
+    --color-additional-3: rgba(222, 129, 254, 1);
+}

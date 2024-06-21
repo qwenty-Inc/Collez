@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Popcorn Maker",
+    "id": "CZ-PC120",
+    "colors": ["green","blue", "pink"]
+  },
+  {
+    "title": "Popcorn Maker",
+    "id": "CZ-PC240",
+    "colors": ["blue", "green", "pink"]
+  },
+  {
+    "title": "Cotton Candy Maker",
+    "id": "CZ-CM100",
+    "colors": ["pink", "blue", "green"]
+  },
+  {
+    "title": "Ice-Cream Maker",
+    "id": "CZ-IC050",
+    "colors": ["green", "blue", "pink"]
+  },
+  {
+    "title": "Crepe Maker",
+    "id": "CZ-CM889",
+    "colors": ["pink", "green", "blue"]
+  },
+  {
+    "title": "Hot Dog Toaster",
+    "id": "CZ-HD700",
+    "colors": ["blue", "green", "pink"]
+  },
+  {
+    "title": "Mini Oven",
+    "id": "CZ-TO644",
+    "colors": ["green", "pink", "blue"]
+  },
+  {
+    "title": "Mini Waffle Maker",
+    "id": "CZ-WM412",
+    "colors": ["pink", "green", "blue"]
+  },
+  {
+    "title": "Rotary Waffle Maker",
+    "id": "CZ-WM776",
+    "colors": ["blue", "green", "pink"]
+  },
+  {
+    "title": "Stuffed Waffle Maker",
+    "id": "CZ-WM422",
+    "colors": ["green", "blue", "pink"]
+  },
+  {
+    "title": "Egg Boiler",
+    "id": "CZ-EB011",
+    "colors": ["pink", "blue", "green"]
+  },
+  {
+    "title": "Air Fryer",
+    "id": "CZ-AF229",
+    "colors": ["green", "blue", "pink"]
+  },
+  {
+    "title": "Rice Cooker",
+    "id": "CZ-RC402",
+    "colors": ["pink", "blue", "green"]
+  },
+  {
+    "title": "Portable Milk Frother",
+    "id": "CZ-FR013",
+    "colors": ["green", "blue", "pink"]
+  },
+  {
+    "title": "USB Portable Blender",
+    "id": "CZ-BL023",
+    "colors": ["blue", "pink", "green"]
+  },
+  {
+    "title": "USB Portable Chopper",
+    "id": "CZ-FC033",
+    "colors": ["pink", "green", "blue"]
+  },
+  {
+    "title": "Milk Shake Mixer",
+    "id": "CZ-RM913",
+    "colors": ["green", "blue", "pink"]
+  },
+  {
+    "title": "Stand Mixer",
+    "id": "CZ-SM120",
+    "colors": ["pink", "green", "blue"]
+  }
+]

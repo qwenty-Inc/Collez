@@ -1,0 +1,33 @@
+---
+const path = import.meta.env.PUBLIC_URL;
+---
+
+<header class="header">
+    <div class="header__container">
+        <a class="header__logo" href=`${path}`>
+            <img src=`${path}assets/img/logo.png` width="199" height="29" alt="Collezioni">
+        </a>
+        <button class="header__menu-btn">
+            <span></span>
+        </button>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item">
+                    <a href=`${path}products` class="header__nav-link">
+                        Products
+                    </a>
+                </li>
+                <li class="header__nav-item">
+                    <a href=`${path}#category` class="header__nav-link">
+                        About us
+                    </a>
+                </li>
+                <li class="header__nav-item">
+                    <a href=`${path}about` class="header__nav-link">
+                        Contacts
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>

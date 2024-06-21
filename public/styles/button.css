@@ -1,0 +1,65 @@
+.button {
+    background: none;
+    text-decoration: none;
+    color: inherit;
+    padding: 12px 32px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    border-radius: 48px;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+    display: block;
+    width: fit-content;
+}
+
+.button--pink {
+    color: var(--color-pink-3);
+    border-color: var(--color-pink-3);
+
+    &:hover {
+        background-color: var(--color-pink-3);
+        border-color: var(--color-pink-3);
+        color: var(--color-white-1);
+    }
+
+    &:active {
+        background-color: var(--color-pink-2);
+        border-color: var(--color-pink-2);
+        color: var(--color-white-1);
+    }
+}
+
+.button--yellow {
+    color: var(--color-yellow-3);
+    border-color: var(--color-yellow-3);
+
+    &:hover {
+        background-color: var(--color-yellow-3);
+        border-color: var(--color-yellow-3);
+        color: var(--color-white-1);
+    }
+
+    &:active {
+        background-color: var(--color-yellow-2);
+        border-color: var(--color-yellow-2);
+        color: var(--color-white-1);
+    }
+}
+
+.button--white {
+    color: var(--color-white-1);
+    border-color: var(--color-white-1);
+
+    &:hover {
+        background-color: var(--color-white-1);
+        border-color: var(--color-white-1);
+        color: var(--color-white-3);
+    }
+
+    &:active {
+        background-color: var(--color-white-2);
+        border-color: var(--color-white-2);
+        color: var(--color-white-3);
+    }
+}

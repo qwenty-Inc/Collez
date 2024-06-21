@@ -1,0 +1,28 @@
+---
+import data from "../../data.json"
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+const path = import.meta.env.PUBLIC_URL;
+
+export async function getStaticPaths() {
+    const posts = data;
+    return posts.map((product) => {
+        return {
+            params: {id: product.id},
+            props: {product}
+        };
+    });
+}
+const {id} = Astro.params;
+const {product} = Astro.props;
+---
+
+<Layout>
+    <div class="product-header">
+        <Header></Header>
+    </div>
+    <a class="product-link" href=`${path}products`>Back to products</a>
+    <img class="product-image" src=`${path}assets/img/catalog/${id}.jpg` alt={product.title}>
+
+
+</Layout>
