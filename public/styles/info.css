@@ -1,0 +1,19 @@
+.info {
+    padding: 32px 0 46px;
+    margin: 0 16px;
+}
+
+.info-image {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+
+@media (min-width: 1152px) {
+    .info {
+        margin: 0 auto;
+        padding: 72px 0 84px;
+        max-width: 1120px;
+    }
+}

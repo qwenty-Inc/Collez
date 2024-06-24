@@ -3,7 +3,7 @@ const path = import.meta.env.PUBLIC_URL;
 const {title, id, colors} = Astro.props;
 ---
 
-<li class="catalog__item">
+<li class="catalog__item" data-color=`${colors[0]}`>
     <a href={`${path}products/${id}`}>
         <img class="catalog__item-img" src=`${path}assets/img/items/${id}.jpg` width="200" height="200" alt={title}>
         <div class="catalog__item-info-container">

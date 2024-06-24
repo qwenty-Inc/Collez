@@ -1,0 +1,16 @@
+---
+import Layout from "../layouts/Layout.astro"
+import Header from "../components/Header.astro"
+const path = import.meta.env.PUBLIC_URL;
+---
+
+<Layout>
+    <section class="banner banner--policy">
+        <Header></Header>
+        <h2>Warranty Info</h2>
+    </section>
+
+    <div class="info">
+        <img class="info-image" src=`${path}assets/img/warranty-card.jpg` alt="warranty card">
+    </div>
+</Layout>

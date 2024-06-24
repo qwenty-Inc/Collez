@@ -1,0 +1,27 @@
+---
+import Layout from "../layouts/Layout.astro"
+import Header from "../components/Header.astro"
+const path = import.meta.env.PUBLIC_URL;
+---
+
+<Layout>
+    <section class="banner banner--policy">
+        <Header></Header>
+        <h2>Return Policy</h2>
+    </section>
+
+    <div class="info">
+        <p class="info-text">
+            CE North America, LLC, warrants your new product to be free from defects in materials and workmanship under
+            normal household use for a period of two (2) year from the date of purchase. During this period, such
+            defects will be repaired or the product replaced at CE’s option. I f the product or component is no longer
+            available, we will replace with a similar product of equal or greater value. This warranty does not cover
+            glass , filters wear from normal use, not in conformity with the printed directions, or damage to the
+            product resulting from accident, alteration, abuse, or misuse. This warranty extends only to the original
+            consumer purchaser or gift recipient. Keep the original sales receipt, as proof of purchase is required to
+            make a warranty claim. This warranty is void if the product is used for other than single-family household
+            use or subjected to any voltage and waveform other than as specified on the rating label (e.g., 120V — 60
+            Hz).
+        </p>
+    </div>
+</Layout>

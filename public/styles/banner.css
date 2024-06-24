@@ -22,6 +22,27 @@
     background-position: center center;
 }
 
+.banner--docs {
+    background-image: url("../assets/img/banner-docs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.banner--news {
+    background-image: url("../assets/img/banner-news.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.banner--policy {
+    background-image: url("../assets/img/banner-policy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 @media (min-width: 1152px) {
     .banner {
         padding-top: 32px;

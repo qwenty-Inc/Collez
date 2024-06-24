@@ -18,6 +18,12 @@
     border: 1px solid var(--color-green-1);
     background-color: var(--color-white-1);
     border-radius: 16px;
+    transition: all 0.4s ease;
+
+    &:hover {
+        border-color: var(--color-white-1);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
 }
 
 .catalog__item a {
@@ -42,7 +48,20 @@
         font-size: 21px;
         height: 55px;
         margin-bottom: 10px;
+        transition: all ease 0.4s;
     }
+}
+
+.catalog__item[data-color="pink"]:hover h4 {
+    color: var(--color-pink-3);
+}
+
+.catalog__item[data-color="blue"]:hover h4 {
+    color: var(--color-blue-3);
+}
+
+.catalog__item[data-color="green"]:hover h4 {
+    color: var(--color-green-3);
 }
 
 .catalog__item-features {
